@@ -1,107 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Frikly Professional</title>
-        <link rel="stylesheet" href="./assets/style/normalize.css" />
-        <link rel="stylesheet" href="./assets/style/style.css" />
-    </head>
-    <body>
-        <!--шапка + логотип  -->
-        <header>
-            <nav class="menu-header">
-                <a class="menu__item menu__item_link" href="#"><img src="./images/logo.svg" alt="logo" /></a>
-            </nav>
-        </header>
-        <main>
-            <!--1 секция (заголовок + кнопка) -->
-            <section>
-                <div class="section-main">
-                    <div class="menu-main">
-                        <h1 class="block__title">текст</h1>
-                        <a class="button" href="#"><span class="button__text">текст</span></a>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frikly Professional</title>
+    <link rel="stylesheet" href="./assets/style/normalize.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+</head>
+
+<body>
+    <!--шапка + логотип  -->
+    <header>
+        <nav class="menu-header">
+            <a class="menu__item menu__item_link" href="#"><img src="./images/logo.svg" alt="logo" /></a>
+        </nav>
+    </header>
+    <main>
+        <!--1 секция (заголовок + кнопка) -->
+        <section>
+            <div class="section-main">
+                <div class="menu-main">
+                    <h1 class="block__title">текст</h1>
+                    <a class="button" href="#"><span class="button__text">текст</span></a>
+                </div>
+            </div>
+        </section>
+        <!--1 блок (текст 32 px + описание 20px + картинка + кнопка)-->
+        <div class="block">
+            <div class="block__elem1">
+                <h3 class="block__title">Membership - Just for you!</h3>
+                <!--заголовок 48px-->
+                <p class="block__text">An honour, you made it to Frikly!</p>
+                <!--текст 32 px-->
+                <p class="block__description">‘Frikly Memberships’, a step ahead of everyone - it’s a premium club only
+                    for Professionals like you. It is the place to gain access to the inaccessible, to discover rare
+                    finds, to be the first to receive news and offers for your chosen projects.</p>
+                <!--описание 20px-->
+                <a class="block__button" href="#"><span class="button__text">Become a member</span></a>
+            </div>
+            <img class="block__img" src="./assets/images/living-room.jpeg" alt="living-room" />
+        </div>
+        <!--2 блок (описание 20px + картинка + кнопка)-->
+        <div class="block">
+            <img class="block__img" src="./assets/images/rest-zone.jpeg" alt="rest-zone" />
+            <div class="block__elem1">
+                <h3 class="block__title">Frikly is a one-stop destination for everything a home needs and assists
+                    anyone, anywhere, to get the feel just like home.</h3>
+                <!--заголовок 48px-->
+                <p class="block__description">Explore and purchase a variety of designs, and categories to suit your
+                    needs. We are bringing furniture, home decor, interior and renovation products from all across the
+                    world and getting them delivered to you and your clients.</p>
+                <!--описание 20px-->
+                <a class="block__button" href="#"><span class="button__text">Explore Frikly.com</span></a>
+            </div><!--кнопка-->
+        </div>
+        </div>
+        <!--3 блок (описание 20px + картинка + кнопка)-->
+        <div class="block">
+            <div class="block__elem1">
+                <h3 class="block__title">Business Pricing For Professionals</h3>
+                <!--заголовок 48px-->
+                <p class="block__description">Frikly Professionals members receive business-pricing, which lowers the
+                    price of millions of products, allowing professionals to scale back the budget of your projects.
+                    This price change is only available to Pros, so it won't take effect unless you register yourself as
+                    a pro member.</p>
+                <!--картинка-->
+                <a class="block__button" href="#"><span class="button__text">Become a Pro member</span></a>
+            </div>
+            <img class="block__img" src="./assets/images/living-room2.jpeg" alt="living-room" />
+        </div>
+
+        <!--секция services -->
+        <!--заголовок 48px-->
+        <article class="block__services">
+            <h3 class="block__title">What we offer at Frikly Professional
+            </h3>
+            <div class="services__container">
+                <div class="services__items">
+                    <div class="services__img"><img src="/assets/images/offer1.png" alt="Wonderful 
+                        Collection logo"></div>
+                    <div class="services__title">
+                        <p class="article-title">Wonderful
+                            Collection</p>
+                    </div>
+                    <div class="services__text">
+                        <p class="article-description">Grab your favorites, that suit your taste from a vast array of
+                            options.
+                        </p>
                     </div>
                 </div>
-            </section>
-            <!--1 блок (текст 32 px + описание 20px + картинка + кнопка)-->
-            <div class="block">
-                <div class="block__elem1">
-                    <h3 class="block__title">Membership - Just for you!</h3>
-                    <!--заголовок 48px-->
-                    <p class="block__text">An honour, you made it to Frikly!</p>
-                    <!--текст 32 px-->
-                    <p class="block__description">‘Frikly Memberships’, a step ahead of everyone - it’s a premium club only for Professionals like you. It is the place to gain access to the inaccessible, to discover rare finds, to be the first to receive news and offers for your chosen projects.</p>
-                    <!--описание 20px-->
-                    <a class="block__button" href="#"><span class="button__text">Become a member</span></a>
+                <div class="services__items">
+                    <div class="services__img"><img src="/assets/images/offer2.png" alt="Customized Services logo">
+                    </div>
+                    <div class="services__title">
+                        <p class="article-title">Customized Services</p>
+                    </div>
+                    <div class="services__text">
+                        <p class="article-description">Accelerate the process through our customized services.</p>
+                    </div>
                 </div>
-                    <img class="block__img" src="./assets/images/living-room.jpeg" alt="living-room" />
-            </div>
-            <!--2 блок (описание 20px + картинка + кнопка)-->
-            <div class="block">
-                    <img class="block__img" src="./assets/images/rest-zone.jpeg" alt="rest-zone" />
-                    <div class="block__elem1">
-                    <h3 class="block__title">Frikly is a one-stop destination for everything a home needs and assists anyone, anywhere, to get the feel just like home.</h3>
-                    <!--заголовок 48px-->
-                    <p class="block__description">Explore and purchase a variety of designs, and categories to suit your needs. We are bringing furniture, home decor, interior and renovation products from all across the world and getting them delivered to you and your clients.</p>
-                    <!--описание 20px-->
-                    <a class="block__button" href="#"><span class="button__text">Explore Frikly.com</span></a>
-                    </div><!--кнопка-->
+                <div class="services__items">
+                    <div class="services__img"> <img src="/assets/images/offer3.png" alt="Exclusive Coupons logo"></div>
+                    <div class="services__title">
+                        <p class="article-title">Exclusive Coupons</p>
+
+                    </div>
+                    <div class="services__text">
+                        <p class="article-description">Get your own promo codes to get exclusive discounts and rewards.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__items">
+                    <div class="services__img"><img src="/assets/images/offer4.png" alt="Quick Delivery logo"></div>
+                    <div class="services__title">
+                        <p class="article-title">Quick Delivery</p>
+
+                    </div>
+                    <div class="services__text">
+                        <p class="article-description">Fasten the pace of your project with our quick delivery service
+                            of
+                            Frikly.</p>
+
+                    </div>
                 </div>
             </div>
-            <!--3 блок (описание 20px + картинка + кнопка)-->
-            <div class="block">
-                <div class="block__elem1">
-                    <h3 class="block__title">Business Pricing For Professionals</h3>
-                    <!--заголовок 48px-->
-                    <p class="block__description">Frikly Professionals members receive business-pricing, which lowers the price of millions of products, allowing professionals to scale back the budget of your projects. This price change is only available to Pros, so it won't take effect unless you register yourself as a pro member.</p>
-                    <!--картинка-->
-                    <a class="block__button" href="#"><span class="button__text">Become a Pro member</span></a>
-                </div>  
-                    <img class="block__img" src="./assets/images/living-room2.jpeg" alt="living-room" />
+        </article>
+
+
+        <!--секция Rewards-->
+
+        <!--заголовок Rewards 64px-->
+        <p class="article__title">текст</p>
+        <!--текст 24px-->
+        <p class="article__description">текст</p>
+        <!--описание 16px-->
+        <!--кнопка-->
+
+        <!--секция Brands -->
+
+        <!--заголовок 48px-->
+        <!--8 кликабельных картинок )-->
+
+        <!--секция Smart Tools-->
+        <!--заголовок 48px-->
+        <article class="block__tools">
+            <h3 class="block__title">Smart Tools exclusively designed for Professionals</h3>
+            <div class="tools__container">
+                <div class="tools__items">
+                    <div class="tools__img"><img src="/assets/images/tools1.png" alt="Design Assistance logo"></div>
+                    <div class="tools__title">
+                        <p class="article-title">Design Assistance
+                        </p>
+                    </div>
+                    <div class="tools__text">
+                        <p class="article-description">Get expert assistance in creating a brand, improving the overall
+                            display
+                            of your product to attract customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="tools__items">
+                    <div class="tools__img"><img src="/assets/images/tools2.png" alt="Tools for assisting project logo">
+                    </div>
+                    <div class="tools__title">
+                        <p class="article-title">Tools for assisting project
+                        </p>
+                    </div>
+                    <div class="tools__text">
+                        <p class="article-description">With our smart tools, keep track of the latest prices and best
+                            selling
+                            products , create product lists and much more.
+                        </p>
+                    </div>
+                </div>
+                <div class="tools__items">
+                    <div class="tools__img"> <img src="/assets/images/tools3.png" alt="Design Assistance logo"></div>
+                    <div class="tools__title">
+                        <p class="article-title">Design Assistance
+                        </p>
+
+                    </div>
+                    <div class="tools__text">
+                        <p class="article-description">Get expert assistance in creating a brand, improving the overall
+                            display
+                            of your product to attract customers.</p>
+                    </div>
+                </div>
+                <div class="tools__items">
+                    <div class="tools__img"><img src="/assets/images/tools4.png" alt="Work together logo"></div>
+                    <div class="tools__title">
+                        <p class="article-title">Work together
+                        </p>
+
+                    </div>
+                    <div class="tools__text">
+                        <p class="article-description">Access the same window and work simultaneously using the multiple
+                            IDs
+                            made
+                            for you and your team.
+                        </p>
+
+                    </div>
+                </div>
             </div>
+        </article>
 
-            <!--секция services -->
-            <!--заголовок 48px-->
-            <div class="block-services">
-                <!--блок services можно сделать article-->
-                <!--элемент кликабельная картинка -->
-                <p class="services__text">текст</p>
-                <!--текст 24px-->
-                <p class="services__description">текст</p>
-                <!--описание 16px-->
-            </div>
+        <!--секция Welcome Home !-->
+        <!--заголовок 48px-->
+        <!--кнопка 18px-->
+    </main>
 
-            <!--секция Rewards-->
+    <footer>
+        <!--подвал (лого + контакты + текст 24px + иконки + Copyright 14px)-->
+    </footer>
+</body>
 
-            <!--заголовок Rewards 64px-->
-            <p class="rewards__text">текст</p>
-            <!--текст 24px-->
-            <p class="rewards__description">текст</p>
-            <!--описание 16px-->
-            <!--кнопка-->
-
-            <!--секция Brands -->
-            <!--заголовок 48px-->
-            <!--8 кликабельных картинок )-->
-
-            <!--секция Smart Tools-->
-            <!--заголовок 48px-->
-
-            <!--блок Smart Tools можно сделать article-->
-            <!--элемент меню (кликабельная картинка -->
-            <p class="tools__text">текст</p>
-            <!--текст 24px-->
-            <p class="tools__description">текст</p>
-            <!--описание 16px-->
-
-            <!--секция Welcome Home !-->
-            <!--заголовок 48px-->
-            <!--кнопка 18px-->
-        </main>
-
-        <footer>
-            <!--подвал (лого + контакты + текст 24px + иконки + Copyright 14px)-->
-        </footer>
-    </body>
 </html>
