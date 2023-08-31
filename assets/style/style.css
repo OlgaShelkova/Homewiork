@@ -1,5 +1,6 @@
 /* общие стили для кнопок - начало */
-.button {
+.button,
+.block__button {
     padding-top: 17.5px;
     padding-bottom: 17.5px;
     padding-right: 72px;
@@ -31,3 +32,33 @@
     line-height: normal;
 }
 /* общие стили для кнопок - конец */
+/* стили для секции 3 блока с картинками начало */
+.block {
+    background-color: #F5F4F4;
+    display: flex;
+    justify-content: space-around;
+    
+    padding-bottom: 150px;
+    margin-bottom: 50px;
+
+}
+.block__elem1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50vw;
+    padding-top: 100px;
+}
+.block__img {
+    border-radius: 250px;
+    object-fit: cover;
+    width: 25vw;
+    height: 40vw;
+    box-sizing: border-box;
+}
+.block__img:hover {
+    border : #867575 solid 1px;
+    transform : scale(1.2);
+}
+/* стили для секции 3 блока с картинками конец */
