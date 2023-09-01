@@ -106,6 +106,14 @@
     margin: 0 auto;
     text-align: center;
   }
+
+  .tools__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(136px, 1fr));
+    gap: 16px;
+    padding-top: 81px;
+    padding-bottom: 105px;
+  }
   
   .tools__img {
     margin: 0 auto;
@@ -119,13 +127,7 @@
     max-height: 89px;
   }
   
-  .tools__container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(136px, 1fr));
-    gap: 16px;
-    padding-top: 81px;
-    padding-bottom: 105px;
-  }
+
   
   /* Секция Tools конец */
   
