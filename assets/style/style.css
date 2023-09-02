@@ -1,3 +1,20 @@
+/*размер стиль логотипа*/
+#id {
+width: 416px;
+height: 63.775px;
+flex-shrink: 0;
+align-items: center;
+background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+padding: 15.7px;
+padding-right: 520px;
+padding-left: 504px;
+padding-bottom: 34px;
+}
+.create-line {
+  width: 200px;
+  border-top: 3px solid #0a0a0a;
+  align-items: center;
+}
 /*размер шрифтов в блоках - начало*/
 .block__title {
   font-size: 5vh;
@@ -152,3 +169,12 @@
 }
 
 /* Секция Tools конец */
+/*Секция футер начало*/
+.footer{
+  width: 1392px;
+  height: 317px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: var(--White, #FFF);
+}
+/*Секция футер конец*/
