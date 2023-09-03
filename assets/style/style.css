@@ -1,5 +1,5 @@
 /*начало секции лого*/
-#id {
+#logo {
 width: 416px;
 height: 63.775px;
 flex-shrink: 0;
@@ -226,8 +226,8 @@ flex-shrink: 0;
   font-weight: 400;
   line-height: 40px;
 }
-.copyrighr{
-  width: 296px;
+.copyright{
+width: 296px;
 height: 15px;
 flex-shrink: 0;
 color: #000;
@@ -240,3 +240,37 @@ font-weight: 400;
 line-height: 150%; /* 21px */
 }
 /*Секция футер конец*/
+
+/* адаптация */
+@media screen and (max-width: 768px) {
+
+  .block__title {
+    font-size: 1em;
+  }
+  .block__text {
+    font-size: 1em;
+  }
+  .block__description {
+    font-size: 1em;
+  }
+  .button,
+.block__button {
+  border-radius: 2em;
+}
+.button__text {
+  font-size: 1em;
+}
+.block__img {
+  width: 20vw;
+  height: 30vw;
+}
+.brands__img img {
+  max-height: 50px;
+}
+.services__items {
+  font-size: 1em;
+}
+.services__img img {
+  max-height: 50px;
+}
+}
