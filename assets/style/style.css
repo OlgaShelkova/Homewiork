@@ -1,4 +1,4 @@
-/*размер стиль логотипа*/
+/*начало секции лого*/
 #id {
 width: 416px;
 height: 63.775px;
@@ -15,6 +15,7 @@ padding-bottom: 34px;
   border-top: 3px solid #0a0a0a;
   align-items: center;
 }
+/*конец секции лого*/
 /*размер шрифтов в блоках - начало*/
 .block__title {
   font-size: 5vh;
@@ -169,12 +170,73 @@ padding-bottom: 34px;
 }
 
 /* Секция Tools конец */
+
 /*Секция футер начало*/
 .footer{
-  width: 1392px;
+  display: grid;
+  width: 132px;
   height: 317px;
   flex-shrink: 0;
+
+}
+.container{
   border-radius: 40px;
   background: var(--White, #FFF);
+}
+.logo__footer{
+  width: 416px;
+height: 114px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+.icons{
+  display: flex;
+width: 132px;
+height: 24px;
+justify-content: center;
+align-items: flex-start;
+gap: 12px;
+flex-shrink: 0;
+}
+.contact{
+  display: flex;
+width: 225px;
+height: 110px;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+}
+.footer__text{
+  width: 655px;
+  height: 79px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Crimson Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+  color: #000;
+  font-family: Crimson Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.copyrighr{
+  width: 296px;
+height: 15px;
+flex-shrink: 0;
+color: #000;
+
+/* Text/Small/Normal */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
 }
 /*Секция футер конец*/
