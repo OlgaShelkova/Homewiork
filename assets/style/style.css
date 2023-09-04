@@ -1,14 +1,14 @@
 /*начало секции лого*/
-#logo {
-width: 416px;
-height: 63.775px;
+.header {
+width: 416%;
+height: 63.775%;
 flex-shrink: 0;
 align-items: center;
-background: url(<path-to-image>), lightgray 50% / contain no-repeat;
-padding: 15.7px;
-padding-right: 520px;
-padding-left: 504px;
-padding-bottom: 34px;
+background: #FFF;
+padding: 15.7%;
+padding-right: 520%;
+padding-left: 504%;
+padding-bottom: 34%;
 }
 .create-line {
   width: 200px;
