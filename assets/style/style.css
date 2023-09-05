@@ -46,12 +46,12 @@
 }
 /*размер шрифтов в блоках - конец*/
 /* общие стили для кнопок - начало */
-.button,
-.block__button {
+.button {
   padding-top: 17.5px;
   padding-bottom: 17.5px;
   padding-right: 72px;
   padding-left: 72px;
+  margin-top: auto;
 
   display: inline-flex;
   justify-content: center;
