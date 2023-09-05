@@ -101,6 +101,7 @@
   width: 25vw;
   height: 35vw;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 .block__img:hover {
   border: #867575 solid 1px;
