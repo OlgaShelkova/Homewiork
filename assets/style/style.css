@@ -142,7 +142,7 @@
 
 .brands__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 130px;
   padding-top: 77px;
   padding-bottom: 130px;
@@ -150,8 +150,9 @@
 }
 
 .brands__img img {
-  max-width: 240px;
-  max-height: 155px;
+width: 250px;
+height: 183px;
+  border: 1px solid #506961;
 }
 
 .brands__img:hover {
@@ -160,7 +161,7 @@
 
 @media (max-width: 768px) {
   .brands__items {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 80px;
   }
 }
 /* Секция Brands конец */
