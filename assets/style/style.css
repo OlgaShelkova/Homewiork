@@ -128,10 +128,16 @@
 /* Секция Services конец */
 
 /* Секция Brands начало */
-.block__brands {
+.block__brands{
+  background-color: rgba(217, 217, 217, 0.20);
+}
+
+.block__container {
   max-width: 1440px; /*  Ограничивающий контейнер*/
   margin: 0 auto;
   text-align: center;
+  padding-top: 2em;
+
 }
 
 .brands__items {
