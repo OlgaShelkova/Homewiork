@@ -122,11 +122,6 @@
   padding-bottom: 165px;
 }
 
-.services__items {
-  display: grid;
-  row-gap: 24px;
-}
-
 .services__img img {
   max-height: 150px;
 }
@@ -141,7 +136,7 @@
 
 .brands__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(237px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 130px;
   padding-top: 77px;
   padding-bottom: 130px;
@@ -149,12 +144,18 @@
 }
 
 .brands__img img {
-  max-width: 237px;
+  max-width: 240px;
   max-height: 155px;
 }
 
 .brands__img:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .brands__items {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
 /* Секция Brands конец */
 
