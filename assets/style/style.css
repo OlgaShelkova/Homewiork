@@ -30,6 +30,13 @@
 		margin-top: 26px;
 		padding-bottom: 6px;
 	}
+  .block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 /*конец секции лого*/
 /*размер шрифтов в блоках - начало*/
@@ -321,27 +328,37 @@ line-height: 150%; /* 24px */
 
 /* адаптация */
 @media screen and (max-width: 768px) {
-
-  .block__title {
+.block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block__text-area {
+  max-width: 100%;
+}
+.block__title {
     font-size: 1em;
   }
-  .block__text {
+.block__text {
     font-size: 1em;
   }
-  .block__description {
+.block__description {
     font-size: 1em;
   }
-  .button,
-.block__button {
+.button,
+{
   border-radius: 2em;
 }
 .button__text {
   font-size: 1em;
 }
 .block__img {
-  width: 20vw;
-  height: 30vw;
+  width: 80vw;
+  height: 30vh;
+  order: -1;
 }
+
 .brands__img img {
   max-height: 50px;
 }
