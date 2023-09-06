@@ -35,6 +35,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+    padding: 10px;
   }
 
 }
@@ -333,9 +335,11 @@ line-height: 150%; /* 24px */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  padding: 20px;
 }
 .block__text-area {
-  max-width: 100%;
+  max-width: 90%;
 }
 .block__title {
     font-size: 1em;
@@ -346,15 +350,14 @@ line-height: 150%; /* 24px */
 .block__description {
     font-size: 1em;
   }
-.button,
-{
+.button {
   border-radius: 2em;
 }
 .button__text {
   font-size: 1em;
 }
 .block__img {
-  width: 80vw;
+  width: 70vw;
   height: 30vh;
   order: -1;
 }
