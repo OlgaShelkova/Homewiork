@@ -57,31 +57,7 @@
     border-bottom: 1px solid black;
 }
 
-@media screen and (max-width: 700px) {
-    #logo {
-        width: 370px;
-        height: 53px;
-        margin-top: 20px;
-        padding-bottom: 7px;
-    }
-}
 
-@media screen and (max-width: 400px) {
-    #logo {
-        width: 170px;
-        height: 43px;
-        margin-top: 26px;
-        padding-bottom: 6px;
-    }
-    .block {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-        padding: 10px;
-    }
-}
 /*конец секции лого*/
 /*размер шрифтов в блоках - начало*/
 .block__title {
@@ -378,7 +354,40 @@ footer {
 /*Секция футер конец*/
 
 /* адаптация */
+@media (max-width: 400px) {
+    #logo {
+        width: 170px;
+        height: 43px;
+        margin-top: 26px;
+        padding-bottom: 6px;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .brands__items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .brands__img img {
+        width: 100px;
+        height: 72px;
+    }
+    .services__img img {
+        max-height: 70px;
+    }
+}
 @media screen and (max-width: 768px) {
+    #logo {
+        width: 370px;
+        height: 53px;
+        margin-top: 20px;
+        padding-bottom: 7px;
+    }
     .block {
         display: flex;
         flex-direction: column;
@@ -470,16 +479,4 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
-    .brands__items {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .brands__img img {
-        width: 100px;
-        height: 72px;
-    }
-    .services__img img {
-        max-height: 70px;
-    }
-}
+
