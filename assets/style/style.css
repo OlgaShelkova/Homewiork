@@ -95,6 +95,7 @@
   font-size: 3vh;
   font-family: "Crimson Pro";
   font-weight: 500;
+  font-style: bold;
 }
 .block__description {
   font-size: 2vh;
@@ -390,13 +391,13 @@ footer {
         max-width: 90%;
     }
     .block__title {
-        font-size: 1em;
+        font-size: 2em;
     }
-    .block__text {
-        font-size: 1em;
+    .block__subtitle {
+        font-size: 1.5em;
     }
     .block__description {
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .button {
         border-radius: 2em;
