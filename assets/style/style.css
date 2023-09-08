@@ -569,6 +569,11 @@ line-height: 0px;
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
+
+    .tools-section__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
     .brands-section__img img {
         width: 190px;
         height: 137px;
