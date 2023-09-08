@@ -336,6 +336,29 @@
 
 /* Секция Tools конец */
 
+/* секция Welcome начало  */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-bottom: 100px;
+}
+
+.welcome-section__title {
+    color: #000;
+    font-family: Crimson Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 48px */
+
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+/* секция Welcome конец */
+
 /*Секция футер начало*/
 footer {
     background-color: #244439;
