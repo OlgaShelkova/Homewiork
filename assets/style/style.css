@@ -501,7 +501,7 @@ footer {
         margin-bottom: 44px;
     }
 
-    .headline-section__button {
+    .button_join {
         padding-top: 12px;
         padding-bottom: 12px;
     }
@@ -595,6 +595,15 @@ footer {
         padding-right: 10px;
     }
 
+    .welcome-section {
+        padding-bottom: 80px;
+    }
+
+    .welcome-section__title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
     .article-text {
         font-size: 1em;
         line-height: 1em;
@@ -657,9 +666,17 @@ footer {
         margin-bottom: 23px;
     }
 
-    .headline-section__button {
+    .welcome-section__title {
+        font-size: 22px;
+    }
+
+    .button_join {
         padding-top: 7px;
         padding-bottom: 7px;
+    }
+
+    .button__text_join {
+        font-size: 14px;
     }
 
     .rewards-section__title {
