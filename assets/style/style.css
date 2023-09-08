@@ -669,8 +669,11 @@ line-height: 0px;
     .call {
         font-size: 1em;
     }
-    .flex {
-        border-bottom: 1px solid rgba(73, 72, 72, 0.35);
+    .line{
+        border-bottom: 3px solid rgba(73, 72, 72, 0.35);
+    }
+    .icons img{
+        width: 30px;
     }
 }
 
@@ -758,5 +761,8 @@ line-height: 0px;
     }
     .services-section__img img {
         max-height: 70px;
+    }
+    .icons img{
+        width: 40px;
     }
 }
