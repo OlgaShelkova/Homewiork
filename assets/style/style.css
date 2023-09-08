@@ -557,6 +557,44 @@ footer {
         max-height: 110px;
     }
 
+    .rewards-section {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 60px;
+        padding-top: 30px;
+    }
+
+    .rewards-section__title {
+        max-width: 85%;
+        font-size: 40px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .rewards-section__title_highlighted {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .rewards-section__subtitle {
+        font-size: 22px;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
+    .rewards-section__text {
+        line-height: 16px;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-bottom: 40px;
+    }
+
+    .rewards-section__button {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .article-text {
         font-size: 1em;
         line-height: 1em;
@@ -622,6 +660,31 @@ footer {
     .headline-section__button {
         padding-top: 7px;
         padding-bottom: 7px;
+    }
+
+    .rewards-section__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .rewards-section__title_highlighted {
+        font-size: inherit;
+        font-weight: inherit;
+    }
+
+    .rewards-section__subtitle {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+
+    .rewards-section__text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .rewards-section__button {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .block {
