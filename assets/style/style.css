@@ -170,6 +170,7 @@
     justify-content: space-around;
     padding-bottom: 150px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .block__text-area {
     display: flex;
